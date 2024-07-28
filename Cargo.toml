@@ -1,0 +1,14 @@
+[package]
+name = "disk_labeler"
+version = "0.1.0"
+authors = ["Your Name <you@example.com>"]
+edition = "2021"
+
+[profile.dev]
+opt-level = 0
+debug = true
+debug-assertions = true
+overflow-checks = true
+
+[dependencies]
+
