@@ -1,4 +1,3 @@
-```markdown
 # Disk Labeler
 
 Disk Labeler is a Rust-based command-line tool that allows you to label different types of filesystems on your disks. It supports ext2/ext3/ext4, vfat/fat32, ntfs, and swap filesystems. This tool also provides a way to verify the label using `lsblk`.
@@ -35,7 +34,7 @@ sudo apt-get install -y util-linux ntfs-3g dosfstools e2fsprogs
 Clone the repository to your local machine:
 
 ```sh
-git clone https://github.com/yourusername/disk_labeler.git
+[git clone https://github.com/yourusername/disk_labeler.git](https://github.com/leopck/rs-disk-labeller/)
 cd disk_labeler
 ```
 
@@ -118,5 +117,3 @@ Contributions are welcome! Please open an issue or submit a pull request if you 
 ## License
 
 This project is licensed under the MIT License.
-```
-
